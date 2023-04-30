@@ -1,6 +1,6 @@
 import json
 from kafka import KafkaConsumer
-
+import logging
 topic_name = "test"
 
 consumer = KafkaConsumer(topic_name, bootstrap_servers=['localhost:9092'],
